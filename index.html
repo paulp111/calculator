@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Taschenrechner</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="ergebnis" readonly>
+        <table>
+          <tr>
+            <td><button class="nummer" onclick="addNummer('7')">7</button></td>
+            <td><button class="nummer" onclick="addNummer('8')">8</button></td>
+            <td><button class="nummer" onclick="addNummer('9')">9</button></td>
+            <td><button class="operator" onclick="addNummer('/')">÷</button></td>
+          </tr>
+          <tr>
+            <td><button class="nummer" onclick="addNummer('4')">4</button></td>
+            <td><button class="nummer" onclick="addNummer('5')">5</button></td>
+            <td><button class="nummer" onclick="addNummer('6')">6</button></td>
+            <td><button class="operator" onclick="addNummer('*')">×</button></td>
+          </tr>
+          <tr>
+            <td><button class="nummer" onclick="addNummer('1')">1</button></td>
+            <td><button class="nummer" onclick="addNummer('2')">2</button></td>
+            <td><button class="nummer" onclick="addNummer('3')">3</button></td>
+            <td><button class="operator" onclick="addNummer('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="nummer" onclick="addNummer('0')">0</button></td>
+            <td><button class="nummer" onclick="addNummer('.')">.</button></td>
+            <td><button class="clear" onclick="ergebnisZuruecksetzen()">C</button></td>
+            <td><button class="operator" onclick="addNummer('+')">+</button></td>
+          </tr>
+          <tr>
+            <td colspan="4"><button class="equal" onclick="berechnen()">=</button></td>
+          </tr>
+        </table>
+      </div>
+    
+      <script src="main.js"></script>
+    
+</body>
+</html>
