@@ -5,22 +5,29 @@ This is a JavaScript calculator styled to resemble the design of a popular phone
 #### Usage
 
 Use the buttons to input numbers and operators.
+
 The input field displays the entered numbers and results.
+
 Press "=" to calculate and display the result.
+
 Press "C" to clear the input field.
 
 
 #### Short explaination of the JS code
 
 addNummer(nummer): Appends numbers/operators to the input field.
+
 ergebnisZuruecksetzen(): Clears the input field.
+
 berechnen(): Performs calculations based on the entered expression.
 
 
 #### HTML Structure
 
 The calculator is wrapped in a <div> element with class "calculator".
+
 The input field is an <input> element with id "ergebnis".
+
 Calculator buttons are organized in a <table> element.
 
 
