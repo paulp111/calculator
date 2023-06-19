@@ -25,9 +25,7 @@ berechnen(): Performs calculations based on the entered expression.
 #### HTML Structure
 
 The calculator is wrapped in a <div> element with class "calculator".
-
 The input field is an <input> element with id "ergebnis".
-
 Calculator buttons are organized in a <table> element.
 
 
