@@ -4,9 +4,7 @@ This is a JavaScript calculator styled to resemble the design of a popular phone
 
 #### Usage
 
-Use the buttons to input numbers and operators.
-
-The input field displays the entered numbers and results.
+Use the buttons to input numbers and operators. The input field displays the entered numbers and results.
 
 Press "=" to calculate and display the result.
 
