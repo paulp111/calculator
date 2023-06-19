@@ -1,4 +1,4 @@
-## JS Calculator Styled Like iPhone
+## JS Calculator 
 This is a JavaScript calculator styled to resemble the design of a popular phone. It allows users to perform basic arithmetic operations and features a sleek and responsive design.
 
 
